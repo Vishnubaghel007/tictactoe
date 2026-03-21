@@ -1,0 +1,29 @@
+.text-center {
+    text-align: center;
+}
+.container {
+    background-color: red;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    margin: 8px 0;
+}
+.button {
+    padding: 20px;
+    margin: 0 3px0;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.row input {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 150px;
+}

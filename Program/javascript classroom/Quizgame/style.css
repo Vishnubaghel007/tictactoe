@@ -1,0 +1,99 @@
+/* ─────────────────── GLOBAL STYLES ─────────────────── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #eef3f8;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* ───────── CONTAINER ───────── */
+.quiz-container {
+  width: 100%;
+  max-width: 480px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* ───────── TITLE ───────── */
+.quiz-header h2 {
+  font-size: 1.5rem;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+.quiz-header p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* ─────── OPTIONS LIST ─────── */
+.options {
+  list-style: none;
+}
+
+.options li {
+  background: #f9f9f9;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.options li:hover {
+  background: #e1eaff;
+  border-color: #7367f0;
+}
+
+.options li.selected {
+  background: #7367f0;
+  color: #fff;
+  border-color: #574fd6;
+}
+
+/* ───────── BUTTON ───────── */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #7367f0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #574fd6;
+}
+
+/* ───────── FINAL SCORE ───────── */
+.result {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.result h3 {
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.result p {
+  font-size: 1rem;
+  color: #555;
+}

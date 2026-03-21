@@ -1,0 +1,90 @@
+body {
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul li{ 
+    padding: 0 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: wheat;
+}
+.brand img {
+    width: 55px;
+    padding: 0 10px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container {
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round',sans-serif;
+    display: flex;
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url('ba.jpg');
+    background-size: cover;
+}
+.bottom {
+    position: fixed;
+    height: 130px;
+    width: 75%;
+    
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icons {
+    margin: 15px;
+}
+.icons i {
+    cursor: pointer
+}
+
+.bottom .icons {
+    color: white;
+}
+.songItem {
+    height: 60px;
+    display: flex;
+    border-radius: 5px;
+    background-color: wheat;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+   
+}
+.songItem  img {
+    width: 60px;
+    height: 70px;
+    object-fit: contain;
+    border-radius: 34px;
+}
+.songItem span {
+    padding: 40px;
+    margin: 10px;
+}
